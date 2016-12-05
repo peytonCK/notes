@@ -143,3 +143,8 @@
     var singleton2=new Singleton();
     console.log(singleton1===singleton2);
 ```
+
+
+> 优点：将代码按模块进行组织，有时还可以按需加载创建实例。
+
+> 缺点：由于代码是模块式组织，耦合性很大，所以测试时也不是很方便，要整块测试。
